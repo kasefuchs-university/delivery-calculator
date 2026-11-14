@@ -8,6 +8,9 @@ export default defineConfig({
     pluginPreact({ exclude: [/[\\/]node_modules[\\/]/, /[\\/]packages[\\/]/] }),
     pluginYaml(),
   ],
+  output: {
+    assetPrefix: "/delivery-calculator/"
+  },
   resolve: {
     alias: { "@": "./src" },
   },
