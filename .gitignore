@@ -10,7 +10,6 @@
 *.scss.d.ts
 
 # Node
-pnpm-lock.yaml
 dist/
 node_modules/
 
